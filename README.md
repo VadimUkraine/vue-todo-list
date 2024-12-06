@@ -3,9 +3,11 @@
 
 # About project
 
-This is a common todo sheet made as a mobile react app.
-You can create, edit and delete tasks.
-You can also mark tasks that have been completed and edit the order of tasks by simply dragging and dropping them on the phone screen.
+This is a common todo sheet made on Vue JS.
+Two pages are displayed to the user.
+On the first page the user can create, edit and delete tasks. Also you can mark tasks that have been completed.
+The second page simply displays the todo list, which is taken from https://jsonplaceholder.typicode.com
+Overall the project also shows the implementation of routing, backend requests and the use of state management - Pinia.
 
 ## Project setup
 ```
