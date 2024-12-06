@@ -1,4 +1,4 @@
-# todo-vue
+# Welcome to VUE TO DO List 👋
 
 ## Project setup
 ```
