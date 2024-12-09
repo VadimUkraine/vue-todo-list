@@ -1,16 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  
+  <RouterHeader/>
+  <router-view/>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import RouterHeader from "@/components/RouterHeader.vue";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    RouterHeader
+  },
+  
 }
 </script>
 
@@ -21,6 +24,17 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 7px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
 }
 </style>
